@@ -1,0 +1,63 @@
+
+.completed .todo-text {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.slide-out {
+    animation: slide-out 0.5s forwards;
+}
+
+@keyframes slide-out {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+.todo-text {
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+.todo-timestamp {
+    display: block;
+    margin-top: 5px;
+}
+
+
+
+
+/*.completed .todo-text {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.slide-out {
+    animation: slide-out 0.5s forwards;
+}
+
+@keyframes slide-out {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+.todo-text {
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+.todo-timestamp {
+    display: block;
+    margin-top: 5px;
+}*/
